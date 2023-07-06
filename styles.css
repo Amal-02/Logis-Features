@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+}
+
+:root {
+  --main-color: #2b4570;
+  --black: #333;
+  --color-primary: #0d42ff;
+  --white: #fff;
+  --btn-color: #4BB3E2;
+  --color-default: #0a0d13;
+  --color-secondary: #0e1d34;
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+.align {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 3.1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.3rem;
+  margin: 0 auto;
+}
+
+
+
+/* Featuresscontainer */
+.featurescontainer {
+    margin-top: -3%;
+    padding: 0 5.05rem;
+  }
+  
+  .features-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+  }
+  
+  .features-content img {
+    height: 48vh;
+    width: 105%;
+    margin-left: 30px;
+  }
+  
+  .features-content .text-tag {
+    margin-left: 7%;
+    width: 800px;
+    height: 300px;
+    margin-top: 30px;
+  }
+  
+  .features-content .text-tag h3 {
+    color: #001973;
+    font-size: 26px;
+    font-weight: 800;
+    margin-top: 3%;
+  }
+  
+  .features-content .text-tag p {
+    margin-top: 2%;
+    font-style: italic;
+  }
+  
+  .features-content .text-tag .check {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .features-content .text-tag .check a {
+    margin-top: 2.5%;
+    color: #000000;
+  }
+  
+  .features-content .text-tag .check i {
+    color: #0040ff;
+    font-size: 13px;
+    padding-right: 10px;
+  }
+  
+  .features-content-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .features-content-1 {
+    margin-top: 10%;
+  }
+  
+  .features-content-1 .text-tag {
+    margin-top: 5%;
+    width: 100%;
+  }
+  
+  .features-content-1 .text-tag h3 {
+    color: #001973;
+    font-size: 26px;
+    font-weight: 800;
+  }
+  
+  .features-content-1 .text-tag p {
+    margin-top: 2%;
+    font-style: italic;
+  }
+  
+  .features-content-1 .text-tag h5 {
+    margin-top: 4%;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .features-content-1 img {
+    padding: 10px;
+  }
+  
